@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: large;
+    height: 60px;
+}
+
+nav .nav-middle ul li  {
+    display: inline;
+}
+
+
+nav .nav-middle ul li a {
+    margin-right: 15px;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+.nav-middle {
+    margin: auto;
+}
+
+.nav-middle ul {
+    display: flex;
+    gap: 150px;
+}
+
+.nav-right {
+margin-right: 10px ;
+}
+
+.nav-right .list-items {
+    margin-left: 5px;
+}
+
+#marvel-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.list-items {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}

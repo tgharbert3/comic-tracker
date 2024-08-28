@@ -1,1 +1,33 @@
-ECHO is on.
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#knights {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+
+#knights-logo {
+    width: 250px;
+    height: 250px;
+}

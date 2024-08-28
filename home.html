@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel Comic Tracker</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <nav>
-        <img src="./images/Marvel-comic-logo.jpeg", alt="marvel-logo" id="marvel-logo">
+        <div id="marvel-logo">
+            <a href="home.html"><img src="../images/Marvel-comic-logo.jpeg" alt="marvel-logo" id="marvel-logo"></a>
+        </div>
         <div class="nav-middle">
-            <div>Library</div>
-            <div>TBR</div>
-            <div>Reading Order</div>
+            <ul>
+                <li class="list-items"><a href="../reading-tracker/reading-tracker.html" class="list-items">Reading Tracker</a></li>
+                <li class="list-items"><a href="../library/library.html" class="list-items">Library</a></li>
+                <li class="list-items"><a href="../tbr/tbr.html" class="list-items">TBR</a></li>
+                <li class="list-items"><a href="../reading-order/reading-order.html" class="list-items">Reading Order</a></li>
+            </ul>
         </div>
         <div class="nav-right">
-            <div id="sign-up">Sign Up</div>
-            <div id="login">Login</div>
+            <ul>
+                <li id="sign-up" class="list-items"><a href="../sign-up/sign-up.html" class="list-items">Register</a></li>
+                <li class="list-items"><a href="../login/login.html" class="list-items">Login</a></li>
+            </ul>
         </div>
     </nav>
 
